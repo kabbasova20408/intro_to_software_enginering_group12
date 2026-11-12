@@ -2,7 +2,6 @@ package cinematch;
 
 import java.util.List;
 
-/** One movie from the TMDB CSV. */
 public record Movie(
         int id,
         String title,
