@@ -16,7 +16,7 @@ import org.apache.commons.csv.CSVRecord;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-/** Loads the TMDB CSV into memory once. This replaces a database. */
+
 public class Movies {
 
     private final ObjectMapper mapper = new ObjectMapper();
@@ -75,7 +75,6 @@ public class Movies {
         return byId.containsKey(id);
     }
 
-    // genres and keywords are JSON text like [{"id": 28, "name": "Action"}], we keep only the names
     private List<String> names(String json) {
         List<String> result = new ArrayList<>();
         if (json == null || json.isBlank()) {
@@ -89,7 +88,6 @@ public class Movies {
                 }
             }
         } catch (IOException e) {
-            // bad JSON in one row: just return what we have
         }
         return result;
     }
