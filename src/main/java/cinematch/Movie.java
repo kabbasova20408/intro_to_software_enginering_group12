@@ -1,4 +1,4 @@
-package main.java.cinematch;
+package cinematch;
 
 import java.util.List;
 
