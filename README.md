@@ -215,25 +215,3 @@ Seed data: `rating_101` and `rating_102` belong to User A, `rating_103` and `rat
 | `Movies.java` | Reads the CSV file into memory |
 | `Greeting.java` | The HTML greeting page |
 | `Respond.java`, `ApiException.java`, `Paging.java` | Response format, errors, pagination |
-
-## Contributors
-
-See [`CONTRIBUTORS.md`](CONTRIBUTORS.md) for team members, student IDs, and individual responsibilities.
-
-## Git Contribution Summary
-
-The following command displays the number of commits made by each contributor:
-
-```bash
-git shortlog -sn --all
-```
-
-Paste the actual output below before submission:
-
-```text
-TODO: Add the output of git shortlog -sn --all
-```
-
-## Demo Video
-
-**Video link:** TODO
