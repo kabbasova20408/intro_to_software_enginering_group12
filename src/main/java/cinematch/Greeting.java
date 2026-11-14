@@ -62,9 +62,9 @@ public final class Greeting {
                   <div class="table-wrap">
                   <table>
                     <tr><th>Name</th><th>Student ID</th><th>What they built</th></tr>
-                    <tr><td>Konul Abbasova</td><td>TODO</td><td>TODO</td></tr>
-                    <tr><td>Aytaj Mammadova</td><td>TODO</td><td>TODO</td></tr>
-                    <tr><td>Khadija Mirzayeva</td><td>TODO</td><td>TODO</td></tr>
+                    <tr><td>Konul Abbasova</td><td>20408</td><td>ApiException,Auth,Paging,Rating classes</td></tr>
+                    <tr><td>Aytaj Mammadova</td><td>23831</td><td>Movies,Movie,Respond classes</td></tr>
+                    <tr><td>Khadija Mirzayeva</td><td>22790</td><td>MovieRoutes,RatingRoutes,Greeting,Main classes</td></tr>
                   </table>
                   </div>
                 </section>
